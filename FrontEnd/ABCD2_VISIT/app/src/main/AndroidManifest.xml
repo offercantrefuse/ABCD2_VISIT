@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abcd2.abcd2_visit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/brain2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/brain2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.abcd2.abcd2_visit.EnterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.abcd2.abcd2_visit.SelectActivity" />
+        <activity android:name="com.abcd2.abcd2_visit.UserActivity" />
+        <activity android:name="com.abcd2.abcd2_visit.ABCD2Activity" />
+        <activity android:name="com.abcd2.abcd2_visit.VISITActivity" />
+        <activity android:name="com.abcd2.abcd2_visit.DurationActivity" />
+        <activity android:name="com.abcd2.abcd2_visit.CheckActivity"></activity>
+    </application>
+
+</manifest>
